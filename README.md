@@ -7,6 +7,6 @@ Compilation of useful little functions for movement, image drawing, or whatever
 
 -----------------------------------------------------------------------------------------------------------------
 
-Descárgate la función que quieras y ejecuta su main.lua. La interacción es limitada, pero aparece especificada en la pantalla.
+Descárgate la función que quieras y ejecuta su main.lua. La versión de LÖVE2D está especificada en el nombre de la carpeta.
 
-Download the function you want and execute its main.lua. The interaction is limited, but the how appears specified in the screen.
+Download the function you want and execute its main.lua. The LÖVE2D needed version is specified in the name of the folder.
