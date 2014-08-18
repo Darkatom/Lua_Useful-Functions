@@ -5,7 +5,7 @@ _GRID = {}
 function loadGrid()    -- Loads a 10x10 matrix in _GRID, which will be the isometric map represented on screen.
                        -- NOTE: Any matrix may be loaded.
          local t = {}
-         local s
+         local s = ''
          local b = false
 
          for i = 1, 10 do
@@ -35,7 +35,7 @@ function drawTile( mode, x, y, sprite ) -- Draws a tile in screen at the given p
                                         -- mode may be 'line', for line drawing, or the given sprite.
 
    if mode == 'img' then
-     love.graphics.draw(sprite, x, y - s:getHeight() + 2*_ISO_F.y)
+     love.graphics.draw(sprite, x, y - sprite:getHeight() + 2*_ISO_F.y)
    elseif mode == 'line' then
      local screen_x = x + _ISO_F.x
      love.graphics.line( screen_x, y,
