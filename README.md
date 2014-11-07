@@ -1,14 +1,11 @@
-Lua_Useful-Functions
-====================
+Lua Useful Functions
+=============
+These are some useful functions for movement, image drawing, etc. in Lua. Although they are thought to be used in LÖVE2D, please, feel free to adapt them as you may need. 
 
-Compilación de pequeñas funciones y funcionalidades útiles relacionadas con movimiento, dibujo de imágenes, o cualquier otra cosa
+How to use them
+-----------------------------------------------------
+Folders hold functions and each one's name indicates the version of LÖVE2D that you need to execute them. Functions may be used with any LÖVE2D version.
 
-Descárgate la función que quieras y ejecuta su main.lua. 
-La versión de LÖVE2D necesaria aparece especificada en el nombre de la carpeta.
+If you need LÖVE2D, head over to their [webpage](http://love2d.org/) and follow the steps to download it.
 
------------------------------------------------------------------------------------------------------------------
-
-Compilation of useful little functions for movement, image drawing, or whatever
-
-Download the function and functionalities you want and execute its main.lua. 
-The LÖVE2D needed version is specified in the name of the folder.
+To execute a game, click and drag its root folder to the LÖVE2D.exe icon. If this does not work, check [LÖVE2D webpage](http://love2d.org/) for other methods.<br/>
