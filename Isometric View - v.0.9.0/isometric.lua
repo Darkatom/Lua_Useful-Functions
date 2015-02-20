@@ -5,7 +5,7 @@ _GRID = {}
 function loadGrid()    -- Loads a 10x10 matrix in _GRID, which will be the isometric map represented on screen.
                        -- NOTE: Any matrix may be loaded.
          local t = {}
-         local s = ''
+         local s
          local b = false
 
          for i = 1, 10 do
